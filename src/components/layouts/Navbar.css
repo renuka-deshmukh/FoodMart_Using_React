@@ -1,0 +1,49 @@
+.navbar-logo {
+  width: 150px;   /* increased from 50px */
+  height: 130px;  /* increased from 50px */
+  object-fit: contain;
+}
+
+.search-bar {
+  flex: 1;
+  max-width: 600px;
+  background: #f8f9fa;
+  border-radius: 30px;
+  padding: 3px;
+  overflow: hidden;
+}
+
+.category-select {
+  width: 160px;
+  border: none;
+  background: transparent;
+  font-size: 0.9rem;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  flex: 1;
+  background: transparent;
+  font-size: 0.9rem;
+}
+
+.search-btn {
+  border: none;
+  background: none;
+  color: #555;
+}
+
+.icon {
+  font-size: 1.2rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #ffb703;
+}
+
+.cart-section {
+  text-align: right;
+}

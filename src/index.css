@@ -1,0 +1,62 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-img {
+  height: 80vh;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+
+.carousel-caption {
+  bottom: 25%;
+}
+
+.carousel-caption h2 {
+  font-size: 3rem;
+}
+
+footer ul li a:hover {
+  color: #00b35a !important;
+}
+
+footer p, footer a {
+  font-size: 0.9rem;
+}
+
+.category-card {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.category-img {
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.product-card img {
+  height: 180px;
+  object-fit: contain;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 0.8rem;
+  padding: 5px 8px;
+  border-radius: 8px;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+
